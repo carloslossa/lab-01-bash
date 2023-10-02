@@ -1,0 +1,39 @@
+Question 1: Open your terminal and start by displaying the current working directory.
+Answer 1: Type pwd and press Enter.
+Question 2: List all files and directories in your current directory.
+Answer 2: Type ls and press Enter.
+Question 3: Navigate to your home directory.
+Answer : type cd ~ or cd and press Enter
+Question 4: Create a new directory named "documents" in your home directory.
+Answer:Type mkdir ~/documents and press Enter.
+Question 5: Change your current directory to the "documents" directory.
+Answer 5: Type cd ~/documents and press Enter.
+Question 6: Create a new file named "report.txt" in the "documents" directory.
+Answer 6: Type touch report.txt and press Enter.
+Question 7: Display the contents of the "report.txt" file.
+Answer 7: Type cat report.txt and press Enter.
+Question 8: Append the text "This is a sample report." to the "report.txt" file.
+Answer 8: Type echo "This is a sample report." >> report.txt and press Enter.
+Question 9: List all files and directories in the "documents" directory.
+Answer 9. Type LS and press Enter
+Question 10: Rename the "report.txt" file to "monthly_report.txt" within the "documents" directory.
+Answer 10:Type mv report.txt monthly_report.txt and press Enter.
+Question 11: Create a new directory named "backup" within the "documents" directory.
+Answer 11: Type mkdir backup and press Enter.
+Question 12: Move the "monthly_report.txt" file into the "backup" directory.
+Answer 12: Type mv monthly_ report.txt backup/ and press Enter.
+Question 13: Change your current directory back to your home directory.
+Answer 13: Type cd ~ or cd and press Enter.
+Question 14: Display the full path to the "backup" directory
+Answer 14: Type pwd and press Enter. I
+Question 15: List all files and directories in the "backup" directory using an absolute path
+Answer 15: Type ls ~/documents/backup and press Enter.
+Question 16: Delete the "backup" directory and its contents.
+Answer 16: Type rm-r ~/documents/backup and press Enter.
+Question 17: Search for all files in your home directory that contain the word "important."
+Answer 17: Type grep -r "important" ~ and press Enter.
+Question 18: Display the first 5 lines of the "monthly_report.txt" file.
+Answer 18: Type head -n 5 ~/documents/monthly_ report.txt and press Enter.
+Question 19: Count the number of files and directories in your home directory.
+Answer:
+Question 20: Logout of your current terminal session.
